@@ -1,9 +1,7 @@
-
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -13,7 +11,7 @@ body {
 
 #welcome-section {
   height: 100vh;
-  background-color: #EB984E ;
+  background-color: #eb984e;
   text-align: center;
   color: white;
   display: flex;
@@ -27,32 +25,29 @@ body {
 }
 
 h1 {
- font-size: 50px;
+  font-size: 50px;
 }
 
 .links {
   padding-top: 30px;
-} 
-
-
+}
 
 #navbar {
-position: fixed;
-text-align: right;
-padding-top: 15px;
-padding-bottom: 15px;
-width: 100%;
-background-color: #6E2C00;
-font-size: 20px;
-
+  position: fixed;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-color: #6e2c00;
+  font-size: 20px;
 }
 
 #nav-link {
- text-decoration: none;
- padding-left: 10px;
- padding-right: 10px;
- color:white;
- font-weight: normal;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-weight: normal;
 }
 
 #nav-link:hover {
@@ -62,12 +57,11 @@ font-size: 20px;
 }
 
 a {
- text-decoration: none;
- padding-left: 10px;
- padding-right: 10px;
- color:#873600;
- font-weight: bold;
- 
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #873600;
+  font-weight: bold;
 }
 
 a:hover {
@@ -75,60 +69,56 @@ a:hover {
 }
 
 .projects {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
 }
 
 #projects {
-  background-color: #F6DDCC;
+  background-color: #f6ddcc;
   padding: 30px;
   height: 100vh;
-
 }
 
 .project-tile {
-  background-color: #FDF2E9;
+  background-color: #fdf2e9;
   border-radius: 5%;
   padding: 20px;
   width: 420px;
   height: 550px;
-  margin:auto;
+  margin: auto;
 }
 
 .project-tile img {
-width: 350px;
-height: auto;
-border-radius: 5px;
-margin-left: 5px;
-
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 5px;
 }
 
 .project-tile p {
-width: 350px;
-height: auto;
-margin: auto;
-text-align: justify;
-padding-top: 10px;
-padding-bottom: 20px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .project-tile h4 {
-text-align: center;
-padding-bottom: 20px;
-
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 h3 {
-  text-align:center;
+  text-align: center;
   padding: 30px;
   font-size: 35px;
 }
 
 #about {
-  background-color: #EDBB99;
-  
+  background-color: #edbb99;
 }
 
 #about img {
@@ -140,18 +130,18 @@ h3 {
 }
 
 .about {
-display:flex;
-flex-direction: column;
-text-align: justify;
-column-gap: 50px;
-justify-content: center;
-align-items: center;
-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  column-gap: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .presentation {
   width: 850px;
-  background-color: #F6DDCC;
+  background-color: #f6ddcc;
   border-radius: 10px;
   padding: 30px;
 }
@@ -159,7 +149,6 @@ height: 100vh;
 .skills {
   margin-top: 30px;
 }
-
 
 .git {
   margin-left: 5px;
@@ -172,4 +161,5 @@ h4 {
 @media only screen and (max-width: 550px) {
   h1 {
     font-size: 25px;
-  }}
+  }
+}
