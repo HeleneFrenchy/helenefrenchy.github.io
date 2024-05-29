@@ -64,8 +64,12 @@ a {
  text-decoration: none;
  padding-left: 10px;
  padding-right: 10px;
- color:brown;
+ color:#873600;
  
+}
+
+a:hover {
+  color: black;
 }
 
 .projects {
