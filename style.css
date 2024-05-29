@@ -13,7 +13,7 @@ body {
 
 #welcome-section {
   height: 100vh;
-  background-color: #F0B27A  ;
+  background-color: #EB984E ;
   text-align: center;
   color: white;
   display: flex;
@@ -52,6 +52,7 @@ font-size: 20px;
  padding-left: 10px;
  padding-right: 10px;
  color:white;
+ font-weight: normal;
 }
 
 #nav-link:hover {
@@ -65,6 +66,7 @@ a {
  padding-left: 10px;
  padding-right: 10px;
  color:#873600;
+ font-weight: bold;
  
 }
 
@@ -82,6 +84,7 @@ a:hover {
 #projects {
   background-color: #F6DDCC;
   padding: 30px;
+  height: 100vh;
 
 }
 
@@ -90,7 +93,7 @@ a:hover {
   border-radius: 5%;
   padding: 20px;
   width: 420px;
-  height: 540px;
+  height: 550px;
   margin:auto;
 }
 
@@ -125,10 +128,6 @@ h3 {
 
 #about {
   background-color: #EDBB99;
-   padding: 30px;
-   display:flex;
-   flex-wrap: wrap;
-  justify-content: space-between;
   
 }
 
@@ -136,13 +135,25 @@ h3 {
   border-radius: 50%;
   width: 200px;
   height: auto;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .about {
 display:flex;
+flex-direction: column;
 text-align: justify;
-column-gap: 30px;
+column-gap: 50px;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.presentation {
+  width: 850px;
+  background-color: #F6DDCC;
+  border-radius: 5%;
+  padding: 30px;
 }
 
 .skills {
