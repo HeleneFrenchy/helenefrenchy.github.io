@@ -3,6 +3,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -21,8 +22,12 @@ body {
   align-items: center;
 }
 
+#welcome-section a {
+  font-size: 20px;
+}
+
 h1 {
- font-size: 40px;
+ font-size: 50px;
 }
 
 .links {
@@ -38,6 +43,7 @@ padding-top: 15px;
 padding-bottom: 15px;
 width: 100%;
 background-color: #666;
+font-size: 20px;
 
 }
 
@@ -80,7 +86,7 @@ a {
   border-radius: 5%;
   padding: 20px;
   width: 420px;
-  height: 530px;
+  height: 540px;
   margin:auto;
 }
 
@@ -107,10 +113,10 @@ padding-bottom: 20px;
 
 }
 
-
 h3 {
   text-align:center;
   padding: 30px;
+  font-size: 35px;
 }
 
 #about {
