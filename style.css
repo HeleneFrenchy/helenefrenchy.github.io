@@ -152,7 +152,7 @@ height: 100vh;
 .presentation {
   width: 850px;
   background-color: #F6DDCC;
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 30px;
 }
 
