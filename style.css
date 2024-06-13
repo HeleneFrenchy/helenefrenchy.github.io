@@ -78,13 +78,15 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+  height: 100%;
   
 }
 
 #projects {
   background-color: #f6ddcc;
   padding: 30px;
-  height: 100vh;
+  
+
   
 }
 
@@ -150,7 +152,7 @@ h3 {
   text-align: justify;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .presentation {
